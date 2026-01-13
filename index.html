@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./components/css/style.css" />
+    <title>Сержан Сарсенбаев | Frontend Developer</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="container">
+            <div class="logo">Serzhan</div>
+            <div class="nav-links">
+                <a href="#about">Обо мне</a>
+                <a href="#skills">Навыки</a>
+                <a href="#projects">Проекты</a>
+                <a href="#contacts">Контакты</a>
+            </div>
+
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <section class="hero" id="about">
+            <div class="hero-text">
+                <h1>
+                    Привет, я <span class="accent">Сержан</span><br />
+                    Frontend Developer
+                </h1>
+                <p>
+                    Студент 3 курса SDU. Изучаю HTML, CSS, JavaScript и Git.
+                    Участвовал в хакатонах и создавал landing page проекты.
+                </p>
+            </div>
+
+            <div class="hero-side">
+                <!-- PHOTO -->
+                <div class="hero-photo">
+                    <img src="./components/assets/ozim.jpg" alt="Фото Сержана">
+                </div>
+
+                <!-- CODE CARD -->
+                <div class="hero-card">
+                    const profile = {
+                    name: "Serzhan Sarsenbaev",
+                    role: "Junior Frontend Developer",
+                    stack: ["HTML", "CSS", "JavaScript", "Git"],
+                    location: "Almaty"
+                    }
+                </div>
+            </div>
+        </section>
+
+
+        <section id="skills" class="skills">
+            <h2>Навыки</h2>
+
+            <!-- USING NOW -->
+            <div class="skills-block">
+                <h3 class="skills-title">USING NOW:</h3>
+
+                <div class="skills-grid">
+                    <div class="skill-item fade-in">
+                        <img src="./components/assets/skills/html.svg" alt="HTML">
+                        <span>HTML5</span>
+                    </div>
+                    <div class="skill-item fade-in">
+                        <img src="./components/assets/skills/css.svg" alt="CSS">
+                        <span>CSS3</span>
+                    </div>
+                    <div class="skill-item fade-in">
+                        <img src="./components/assets/skills/sass.svg" alt="SASS">
+                        <span>SASS</span>
+                    </div>
+                    <div class="skill-item fade-in">
+                        <img src="./components/assets/skills/js.svg" alt="JavaScript">
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill-item fade-in">
+                        <img src="./components/assets/skills/bootstrap.svg" alt="Bootstrap">
+                        <span>Bootstrap</span>
+                    </div>
+                    <div class="skill-item fade-in">
+                        <img src="./components/assets/skills/git.svg" alt="Git">
+                        <span>Git</span>
+                    </div>
+                    <div class="skill-item fade-in">
+                        <img src="./components/assets/skills/figma.svg" alt="Figma">
+                        <span>Figma</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LEARNING -->
+            <div class="skills-block">
+                <h3 class="skills-title">LEARNING:</h3>
+
+                <div class="skills-grid">
+                    <div class="skill-item fade-in">
+                        <img src="./components/assets/skills/react.svg" alt="React">
+                        <span>React</span>
+                    </div>
+                    <div class="skill-item fade-in">
+                        <img src="./components/assets/skills/nodejs.svg" alt="NodeJS">
+                        <span>NodeJS</span>
+                    </div>
+                    <div class="skill-item fade-in">
+                        <img src="./components/assets/skills/mysql.svg" alt="MySQL">
+                        <span>MySQL</span>
+                    </div>
+                    <div class="skill-item fade-in">
+                        <img src="./components/assets/skills/ts.svg" alt="TypeScript">
+                        <span>TypeScript</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- OTHER SKILLS -->
+            <div class="skills-block">
+                <h3 class="skills-title">OTHER SKILLS:</h3>
+
+                <div class="skills-grid">
+                    <div class="skill-item fade-in">
+                        <img src="./components/assets/skills/english.svg" alt="English">
+                        <span>English C1/C2</span>
+                    </div>
+                    <div class="skill-item fade-in">
+                        <img src="./components/assets/skills/cpp.svg" alt="C++">
+                        <span>C++</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="projects">
+            <h2>Проекты</h2>
+
+            <div class="project">
+                <img data-src="./components/assets/sdu.png" src="./components/assets/sdu.png" alt="SDU Hackathon" />
+                <div>
+                    <h3>SDU Hackathon Website</h3>
+                    <p>Сайт для SDU, разработанный для хакатона.</p>
+                    <a class="link" href="https://github.com/https-serzhan/sdu_mid" target="_blank">GitHub →</a>
+                </div>
+            </div>
+
+            <div class="project">
+                <img data-src="./components/assets/burger.png" src="./components/assets/burger.png" alt="Burger Landing" />
+                <div>
+                    <h3>Burger Landing</h3>
+                    <p>Лендинг для ресторана бургера.</p>
+                    <a class="link" href="https://github.com/https-serzhan/burger_landing">GitHub →</a>
+                </div>
+            </div>
+
+            <div class="project">
+                <img data-src="./components/assets/psychology.png" src="./components/assets/psychology.png"
+                    alt="Psychologist Landing" />
+                <div>
+                    <h3>Psychologist Landing</h3>
+                    <p>Лендинг психолога с контактной формой.</p>
+                    <a class="link" href="https://github.com/https-serzhan/alma_bakhytqyzy">GitHub →</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacts" class="contact">
+            <h2>Контакты</h2>
+            <div class="links_wrapper">
+                <a href="https://github.com/https-serzhan"><img src="./components/assets/links/github.png" alt=""
+                        class="footer_img"></a>
+                <a href="https://www.linkedin.com/in/serzhan-sarsenbaev-9910b2194/"><img
+                        src="./components/assets/links/linkedin.png" alt="" class="footer_img"></a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        © 2026 Serzhan Sarsenbaev
+    </footer>
+    <script src="./components/js/main.js"></script>
+</body>
+
+</html>
