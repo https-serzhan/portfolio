@@ -34,7 +34,9 @@ body {
 }
 
 .hero-photo img {
+    height: 500px;
     width: 100%;
+    object-position: bottom;
     border-radius: 20px;
     border: 1px solid var(--border);
     object-fit: cover;
@@ -219,12 +221,12 @@ footer {
     font-size: 13px;
 }
 
-.footer_img{
-    width:4rem;
-    height:4rem;
+.footer_img {
+    width: 4rem;
+    height: 4rem;
     filter: invert(80%) sepia(20%) saturate(500%) hue-rotate(170deg) brightness(90%) contrast(85%);
     vertical-align: middle;
-    margin-left:4px;
+    margin-left: 4px;
 }
 
 
@@ -316,9 +318,9 @@ footer {
         margin: 0 auto;
     }
 
-    .footer_img{
-        width:3rem;
-        height:3rem;
+    .footer_img {
+        width: 3rem;
+        height: 3rem;
     }
 }
 
@@ -329,6 +331,7 @@ footer {
     }
 
     .hero-photo {
+        height: 500px;
         max-width: 260px;
         margin: 0 auto;
     }
@@ -337,9 +340,10 @@ footer {
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
         gap: 20px;
     }
-    .footer_img{
-        width:3rem;
-        height:3rem;
+
+    .footer_img {
+        width: 3rem;
+        height: 3rem;
     }
 }
 
@@ -373,7 +377,7 @@ footer {
         font-size: 12px;
     }
 
-    .footer_img{
+    .footer_img {
         width: 40px;
         height: 40px;
     }
